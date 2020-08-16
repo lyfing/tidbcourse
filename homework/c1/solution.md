@@ -44,10 +44,10 @@ clone 代码到本地，cd至根目录，执行make。编译完毕，在target/r
 2) bin目录下执行 `./tidb-server -config config.toml &` 启动TiDB 
 
 至此，TiDB环境已部署完毕。可通过TiDB Dashboard访问查看：  
-![集群信息](./instance.png)
+![集群信息](http://g.ifocusad.com/r/instance.png)
 #### 三、修改源码，启动TiDB事务时，打印"hello transaction"日志
 1. 分析要求，确定修改代码在TiDB工程。查阅源码，整理相关类图
-![TiDB相关类图](./classxml.png)
+![TiDB相关类图](http://g.ifocusad.com/r/classxml.png)
 2. 确定修改点 `session.go PrepareTxnCtx func`，添加日志 `logutil.Logger(ctx).Info("PrepareTxnCtx() hello transaction")`。  
 3. 测试  
 1）链接TiDB `mysql -uroot -Dtest -P4000`，输入 `start transaction` 输出日志：  `[2020/08/16 21:16:06.721 +08:00] [INFO] [session.go:2178] ["PrepareTxnCtx() hello transaction"]`
