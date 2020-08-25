@@ -1,0 +1,20 @@
+***************** properties *****************
+"readproportion"="1"
+"dotransactions"="true"
+"mysql.host"="172.17.211.167"
+"mysql.port"="40001"
+"recordcount"="100000"
+"mysql.password"="dbpass"
+"mysql.db"="ycsbtest"
+"scanproportion"="0"
+"operationcount"="1000"
+"updateproportion"="0"
+"workload"="core"
+"readallfields"="true"
+"requestdistribution"="uniform"
+"threadcount"="8"
+"mysql.user"="root"
+"insertproportion"="0"
+**********************************************
+Run finished, takes 299.14344ms
+READ   - Takes(s): 0.3, Count: 1000, OPS: 3406.8, Avg(us): 2036, Min(us): 1273, Max(us): 8676, 99th(us): 8000, 99.9th(us): 9000, 99.99th(us): 9000

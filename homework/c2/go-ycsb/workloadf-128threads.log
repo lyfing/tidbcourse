@@ -1,0 +1,23 @@
+***************** properties *****************
+"mysql.host"="172.17.211.167"
+"readallfields"="true"
+"mysql.user"="root"
+"operationcount"="1000"
+"recordcount"="100000"
+"mysql.password"="dbpass"
+"scanproportion"="0"
+"updateproportion"="0"
+"mysql.db"="ycsbtest"
+"threadcount"="128"
+"mysql.port"="40001"
+"readmodifywriteproportion"="0.5"
+"dotransactions"="true"
+"requestdistribution"="uniform"
+"workload"="core"
+"insertproportion"="0"
+"readproportion"="0.5"
+**********************************************
+Run finished, takes 335.059946ms
+READ   - Takes(s): 0.3, Count: 896, OPS: 2862.4, Avg(us): 13610, Min(us): 1563, Max(us): 48317, 99th(us): 36000, 99.9th(us): 49000, 99.99th(us): 49000
+READ_MODIFY_WRITE - Takes(s): 0.3, Count: 454, OPS: 1713.8, Avg(us): 57742, Min(us): 13701, Max(us): 119322, 99th(us): 100000, 99.9th(us): 120000, 99.99th(us): 120000
+UPDATE - Takes(s): 0.3, Count: 454, OPS: 1713.2, Avg(us): 43832, Min(us): 11438, Max(us): 110276, 99th(us): 84000, 99.9th(us): 111000, 99.99th(us): 111000

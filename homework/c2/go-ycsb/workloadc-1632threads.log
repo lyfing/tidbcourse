@@ -1,0 +1,19 @@
+***************** properties *****************
+"insertproportion"="0"
+"scanproportion"="0"
+"mysql.host"="172.17.211.167"
+"threadcount"="1632"
+"recordcount"="100000"
+"operationcount"="1000"
+"readproportion"="1"
+"mysql.user"="root"
+"dotransactions"="true"
+"updateproportion"="0"
+"workload"="core"
+"readallfields"="true"
+"mysql.db"="ycsbtest"
+"requestdistribution"="uniform"
+"mysql.port"="40001"
+"mysql.password"="dbpass"
+**********************************************
+totalOpCount(operationcount/insertcount/recordcount): 1000 should be bigger than threadCount: 1632

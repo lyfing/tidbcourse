@@ -1,0 +1,44 @@
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 128
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 128 tps: 2616.48 qps: 2616.48 (r/w/o: 0.00/2603.98/12.49) lat (ms,95%): 90.78 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 128 tps: 2999.43 qps: 2999.43 (r/w/o: 0.00/2982.83/16.60) lat (ms,95%): 70.55 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 128 tps: 2907.37 qps: 2907.37 (r/w/o: 0.00/2892.37/15.00) lat (ms,95%): 73.13 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 128 tps: 2765.84 qps: 2765.84 (r/w/o: 0.00/2749.74/16.10) lat (ms,95%): 78.60 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 128 tps: 3030.70 qps: 3030.70 (r/w/o: 0.00/3015.50/15.20) lat (ms,95%): 69.29 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 128 tps: 2753.18 qps: 2753.18 (r/w/o: 0.00/2739.98/13.20) lat (ms,95%): 86.00 err/s: 0.00 reconn/s: 0.00
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           169972
+        other:                           886
+        total:                           170858
+    transactions:                        170858 (2837.24 per sec.)
+    queries:                             170858 (2837.24 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          60.2179s
+    total number of events:              170858
+
+Latency (ms):
+         min:                                    1.47
+         avg:                                   45.04
+         max:                                  581.68
+         95th percentile:                       77.19
+         sum:                              7694648.53
+
+Threads fairness:
+    events (avg/stddev):           1334.8281/12.05
+    execution time (avg/stddev):   60.1144/0.07
+

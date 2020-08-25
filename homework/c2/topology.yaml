@@ -1,0 +1,48 @@
+# # Global variables are applied to all deployments and used as the default value of
+# # the deployments if a specific deployment value is missing.
+global:
+  user: "root"
+  ssh_port: 22
+  deploy_dir: "/data/logs/tidbc2/deploy"
+  data_dir: "/data/logs/tidbc2/data"
+
+pd_servers:
+  - host: 172.17.211.167
+    client_port: 2380
+    peer_port: 2389
+    log_dir: /data/logs/tidbc2/pd-2380/log
+
+tidb_servers:
+    - host: 172.17.211.167
+      port: 40001
+      log_dir: /data/logs/tidbc2/tidb/log
+
+tikv_servers:
+  - host: 172.17.211.167
+    port: 20170
+    status_port: 20180
+    log_dir: /data/logs/tidbc2/tikv-20170/log
+
+  - host: 172.17.211.167
+    port: 20171
+    status_port: 20181
+    log_dir: /data/logs/tidbc2/tikv-20171/log
+
+  - host: 172.17.211.167
+    port: 20172
+    status_port: 20182
+    log_dir: /data/logs/tidbc2/tikv-20172/log
+
+monitoring_servers:
+  - host: 172.17.211.167
+    port: 9090
+    log_dir: /data/logs/tidbc2/monitor/log
+
+grafana_servers:
+  - host: 172.17.211.167
+    port: 3000
+
+alertmanager_servers:
+  - host: 172.17.211.167
+    web_port: 9093
+    log_dir: /data/logs/tidbc2/alert/log

@@ -1,0 +1,44 @@
+sysbench 1.0.20 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 64
+Report intermediate results every 10 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[ 10s ] thds: 64 tps: 16814.88 qps: 16814.88 (r/w/o: 16814.88/0.00/0.00) lat (ms,95%): 7.30 err/s: 0.00 reconn/s: 0.00
+[ 20s ] thds: 64 tps: 17204.43 qps: 17204.43 (r/w/o: 17204.43/0.00/0.00) lat (ms,95%): 6.91 err/s: 0.00 reconn/s: 0.00
+[ 30s ] thds: 64 tps: 17583.55 qps: 17583.55 (r/w/o: 17583.55/0.00/0.00) lat (ms,95%): 6.91 err/s: 0.00 reconn/s: 0.00
+[ 40s ] thds: 64 tps: 17573.90 qps: 17573.90 (r/w/o: 17573.90/0.00/0.00) lat (ms,95%): 6.79 err/s: 0.00 reconn/s: 0.00
+[ 50s ] thds: 64 tps: 17616.44 qps: 17616.44 (r/w/o: 17616.44/0.00/0.00) lat (ms,95%): 6.79 err/s: 0.00 reconn/s: 0.00
+[ 60s ] thds: 64 tps: 17417.10 qps: 17417.10 (r/w/o: 17417.10/0.00/0.00) lat (ms,95%): 7.04 err/s: 0.00 reconn/s: 0.00
+SQL statistics:
+    queries performed:
+        read:                            1042219
+        write:                           0
+        other:                           0
+        total:                           1042219
+    transactions:                        1042219 (17363.63 per sec.)
+    queries:                             1042219 (17363.63 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          60.0214s
+    total number of events:              1042219
+
+Latency (ms):
+         min:                                    0.93
+         avg:                                    3.68
+         max:                                   55.80
+         95th percentile:                        6.91
+         sum:                              3839912.30
+
+Threads fairness:
+    events (avg/stddev):           16284.6719/710.09
+    execution time (avg/stddev):   59.9986/0.00
+

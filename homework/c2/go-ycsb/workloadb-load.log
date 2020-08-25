@@ -1,0 +1,24 @@
+***************** properties *****************
+"readproportion"="0.95"
+"mysql.host"="172.17.211.167"
+"dotransactions"="false"
+"insertproportion"="0"
+"readallfields"="true"
+"requestdistribution"="uniform"
+"recordcount"="100000"
+"mysql.db"="ycsbtest"
+"mysql.password"="dbpass"
+"threadcount"="8"
+"mysql.user"="root"
+"workload"="core"
+"mysql.port"="40001"
+"operationcount"="1000"
+"scanproportion"="0"
+"updateproportion"="0.05"
+**********************************************
+INSERT - Takes(s): 10.0, Count: 44103, OPS: 4411.6, Avg(us): 1779, Min(us): 1058, Max(us): 22920, 99th(us): 7000, 99.9th(us): 11000, 99.99th(us): 23000
+INSERT - Takes(s): 20.0, Count: 86461, OPS: 4323.7, Avg(us): 1796, Min(us): 1058, Max(us): 22920, 99th(us): 7000, 99.9th(us): 11000, 99.99th(us): 21000
+INSERT - Takes(s): 30.0, Count: 100000, OPS: 3333.7, Avg(us): 1818, Min(us): 1058, Max(us): 22920, 99th(us): 7000, 99.9th(us): 11000, 99.99th(us): 20000
+INSERT - Takes(s): 40.0, Count: 100000, OPS: 2500.2, Avg(us): 1818, Min(us): 1058, Max(us): 22920, 99th(us): 7000, 99.9th(us): 11000, 99.99th(us): 20000
+Run finished, takes 49.263930833s
+INSERT - Takes(s): 49.3, Count: 100000, OPS: 2030.0, Avg(us): 1818, Min(us): 1058, Max(us): 22920, 99th(us): 7000, 99.9th(us): 11000, 99.99th(us): 20000

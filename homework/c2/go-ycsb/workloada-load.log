@@ -1,0 +1,46 @@
+***************** properties *****************
+"dotransactions"="false"
+"readallfields"="true"
+"operationcount"="1000"
+"mysql.port"="40001"
+"requestdistribution"="uniform"
+"mysql.password"="dbpass"
+"insertproportion"="0"
+"updateproportion"="0.5"
+"readproportion"="0.5"
+"recordcount"="100000"
+"mysql.user"="root"
+"mysql.db"="ycsbtest"
+"threadcount"="8"
+"scanproportion"="0"
+"mysql.host"="172.17.211.167"
+"workload"="core"
+**********************************************
+INSERT - Takes(s): 10.0, Count: 4556, OPS: 456.7, Avg(us): 17486, Min(us): 6519, Max(us): 55582, 99th(us): 32000, 99.9th(us): 52000, 99.99th(us): 56000
+INSERT - Takes(s): 20.0, Count: 8826, OPS: 441.8, Avg(us): 18079, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 103000, 99.99th(us): 189000
+INSERT - Takes(s): 30.0, Count: 13241, OPS: 441.7, Avg(us): 18081, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 61000, 99.99th(us): 189000
+INSERT - Takes(s): 40.0, Count: 17728, OPS: 443.5, Avg(us): 18005, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 63000, 99.99th(us): 189000
+INSERT - Takes(s): 50.0, Count: 22217, OPS: 444.6, Avg(us): 17955, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 61000, 99.99th(us): 178000
+INSERT - Takes(s): 60.0, Count: 26726, OPS: 445.6, Avg(us): 17916, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 178000
+INSERT - Takes(s): 70.0, Count: 31078, OPS: 444.1, Avg(us): 17977, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 167000
+INSERT - Takes(s): 80.0, Count: 35372, OPS: 442.3, Avg(us): 18050, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 167000
+INSERT - Takes(s): 90.0, Count: 39686, OPS: 441.1, Avg(us): 18100, Min(us): 6519, Max(us): 188413, 99th(us): 34000, 99.9th(us): 57000, 99.99th(us): 167000
+INSERT - Takes(s): 100.0, Count: 44052, OPS: 440.6, Avg(us): 18118, Min(us): 6519, Max(us): 188413, 99th(us): 33000, 99.9th(us): 56000, 99.99th(us): 167000
+INSERT - Takes(s): 110.0, Count: 48597, OPS: 441.9, Avg(us): 18066, Min(us): 6519, Max(us): 188413, 99th(us): 33000, 99.9th(us): 56000, 99.99th(us): 167000
+INSERT - Takes(s): 120.0, Count: 52698, OPS: 439.2, Avg(us): 18173, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 205000
+INSERT - Takes(s): 130.0, Count: 56538, OPS: 435.0, Avg(us): 18353, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 205000
+INSERT - Takes(s): 140.0, Count: 60167, OPS: 429.8, Avg(us): 18574, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 58000, 99.99th(us): 203000
+INSERT - Takes(s): 150.0, Count: 64146, OPS: 427.7, Avg(us): 18665, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 57000, 99.99th(us): 203000
+INSERT - Takes(s): 160.0, Count: 68405, OPS: 427.6, Avg(us): 18669, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 203000
+INSERT - Takes(s): 170.0, Count: 72501, OPS: 426.5, Avg(us): 18717, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 61000, 99.99th(us): 190000
+INSERT - Takes(s): 180.0, Count: 76975, OPS: 427.7, Avg(us): 18666, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 61000, 99.99th(us): 203000
+INSERT - Takes(s): 190.0, Count: 81093, OPS: 426.9, Avg(us): 18702, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 61000, 99.99th(us): 189000
+INSERT - Takes(s): 200.0, Count: 85251, OPS: 426.3, Avg(us): 18726, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 190000
+INSERT - Takes(s): 210.0, Count: 89596, OPS: 426.7, Avg(us): 18709, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 190000
+INSERT - Takes(s): 220.0, Count: 93862, OPS: 426.7, Avg(us): 18709, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
+INSERT - Takes(s): 230.0, Count: 97913, OPS: 425.8, Avg(us): 18750, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
+INSERT - Takes(s): 240.0, Count: 99991, OPS: 416.7, Avg(us): 18739, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
+INSERT - Takes(s): 250.0, Count: 100000, OPS: 400.0, Avg(us): 18738, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
+INSERT - Takes(s): 260.0, Count: 100000, OPS: 384.7, Avg(us): 18738, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
+Run finished, takes 4m21.270037569s
+INSERT - Takes(s): 261.2, Count: 100000, OPS: 382.8, Avg(us): 18738, Min(us): 6519, Max(us): 204539, 99th(us): 34000, 99.9th(us): 59000, 99.99th(us): 189000
